@@ -30,7 +30,7 @@
 		 <p class="login-box-msg" style="color:red"><?php echo $this->phpsession->get('msg');$this->phpsession->clear('msg');?></p>		
         <form action="<?php echo $this->config->item('base_url').'login/' ?>" method="post" id="login" name="login">
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Username"  value="" name="loginname" id="loginname" />
+            <input type="text" class="form-control" placeholder="Email ID"  value="" name="loginname" id="loginname" />
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
 			<span class="error_class"></span>
           </div>

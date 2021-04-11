@@ -95,7 +95,7 @@ class Users_Model extends CI_Model {
     * Function for get the category data by its id
     * @param $id
     * @return array
-	*/---------------------------------------
+	*/
 
 	public function getCatById($id=0){
 		if($id > 0){
@@ -109,5 +109,6 @@ class Users_Model extends CI_Model {
 	}//end getTaskById
 
 } //end class usermodel
+
 
 ?>
